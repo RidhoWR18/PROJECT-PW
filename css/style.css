@@ -1,0 +1,57 @@
+.judul-index
+{
+    background-color: #008b8b;
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 1%;
+    padding-bottom: 10%;
+}
+
+.flex-container
+{
+    display: flex;
+    width: 100%;
+    margin: 100px auto;
+    justify-content: space-between;
+}
+
+.kalimat
+{
+    font-size: 15pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.judul-profil
+{
+    background-color: #008b8b;
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.foto-profil
+{
+    width: 555px;
+    margin-top: 5%;
+    margin: 50px auto;
+    display: flex;
+}
+
+#huruf-utama, #huruf-utama-profil
+{
+    text-align: center;
+    font-size: 30pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+#nama-profil
+{
+    text-align: center;
+    font-style: initial;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
