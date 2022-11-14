@@ -5,15 +5,33 @@
     padding-left: 0%;
     padding-right: 0%;
     padding-top: 1%;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 .flex-container
 {
     display: flex;
-    width: 100%;
+    width: 80%;
     margin: 100px auto;
     justify-content: space-between;
+}
+.button-container
+{
+    height: 50px;
+    position: sticky;
+    margin: 5px;
+    background-color: skyblue;
+    border: none;
+    text-align: center;
+    display: inline-block;s
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .kalimat
