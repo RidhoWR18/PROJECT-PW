@@ -1,6 +1,6 @@
 .judul-index
 {
-    background-color: #008b8b;
+    background-image: linear-gradient(-135deg,#4158d0,#c850c0);
     width: 100%;
     padding-left: 0%;
     padding-right: 0%;
@@ -23,7 +23,7 @@
     background-color: skyblue;
     border: none;
     text-align: center;
-    display: inline-block;s
+    display: inline-block;
 }
 
 .vertical-center {
@@ -72,4 +72,30 @@
     text-align: center;
     font-style: initial;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.container-bg100 {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: #9053c7;
+    background: -webkit-linear-gradient(-135deg,#c850c0,#4158d0);
+
+}
+
+.wrap-input
+{
+    align-items: center;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 10px;
 }
