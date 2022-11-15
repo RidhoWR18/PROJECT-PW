@@ -1,6 +1,6 @@
 .judul-index
 {
-    background-image: linear-gradient(-135deg,#4158d0,#c850c0);
+    background-image: linear-gradient(-135deg,rgb(65, 88, 208),rgb(200, 80, 192));
     width: 100%;
     padding-left: 0%;
     padding-right: 0%;
@@ -15,23 +15,33 @@
     margin: 100px auto;
     justify-content: space-between;
 }
+
 .button-container
 {
     height: 50px;
-    position: sticky;
-    margin: 5px;
-    background-color: skyblue;
-    border: none;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding: auto;
     text-align: center;
-    display: inline-block;
+    display: flex;
 }
 
 .vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.btn-login
+{
+    display: flexbox;
+    position: absolute;
+    background: #4158d0;
+    color: rgb(240, 248, 255);
 }
 
 .kalimat
